@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="
+    viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Nutri Valéria Furchi</title>
+</head>
+<body onscroll="aparecerBlock(), aparecerBlockEspc()">
+  <div class="row">
+    <div class="col-lg-4">
+      <a  href="./index.html"><img src="./img/logo.png" alt=""></a>
+    </div>
+    <div class="col-lg-4">
+      <table class="table_midia">
+        <tr>
+          <td>
+            <a  href="https://www.instagram.com/nutrivaleriafurchi/" target="_blank"><img src="./img/insta.png" alt="" width="25px"></a>
+          </td>
+          <td>
+            <a href="https://www.linkedin.com/in/val%C3%A9ria-furchi-611542208/" target="_blank" ><img src="./img/link.png" alt="" width="25px"></a>
+          </td>
+          <td>
+            <a href="https://web.facebook.com/profile.php?id=100011092266504" target="_blank" ><img src="./img/face.png" alt="" width="25px"></a>
+          </td>
+          <td>
+            <a href="#contato" ><img src="./img/wha.png" alt="" width="25px"></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Serviços
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="./info.html?serv=atend_nutri">Atendimento Nutricional</a></li>
+                        <li><a class="dropdown-item" href="./info.html?serv=personal_diet">Personal Diet</a></li>
+                        <li><a class="dropdown-item" href="./info.html?serv=consultoria">Consultoria</a></li>
+                        <li><a class="dropdown-item" href="./info.html?serv=tabela_nutri">Tabela Nutricional</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Especialidade
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./info.html?info=emagrecimento">Emagrecimento e Obesidade</a></li>
+                      <li><a class="dropdown-item" href="./info.html?info=funcional">Nutrição Funcional</a></li>
+                      <li><a class="dropdown-item" href="./info.html?info=estetica">Nutrição e Estética</a></li>
+                      <li><a class="dropdown-item" href="./info.html?info=fitoterapia">Fitoterapia</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./info.html?sobre=valeria">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Receitas</a>
+                  </li>
+                  <li class="container-fluid d-flex ">
+                    <form class="d-flex" >
+                        <a class="btn btn-outline-success" type="submit" href="#agenda" >Agendar sua consulta</a>
+                      </form>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    
+    <div id="container1" class="container move_right_container" >
+        <div class="row">
+            <div id="block_L" class="col-lg-6">
+                <h2 id="title"></h2>
+                <p id="parag"></p>
+                <a class="btn btn-outline-success" type="submit" href="#agenda" >Agendar sua consulta</a>
+            </div>
+            <div id="block_R" class="col-lg-6">
+                <div id="serv" class="imagem_nutri">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="container2" class="container move_left" >
+        <div class="inf_box">
+            <div class="row">
+                <h3 id="sub1"></h3>
+                <p id="parag1"></p>
+            </div>
+        </div>
+        <div class="inf_box">
+            <div class="row">
+                <h3 id="sub2"></h3>
+                <p id="parag2"></p>
+            </div>
+        </div>
+        <div class="inf_box">
+            <div class="row">
+                <h3 id="sub3"></h3>
+                <p id="parag3"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="container3" class="container move_right_container ">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Nutricionista por paixão </h2>
+          <h2>e amor a profissão</h2>
+          <ul>
+            <p>Sou Valéria Furchi, nutricionista formada pelo Faculdade Metropolitana de Manaus e Pós-graduada em Nutrição Clinica, Estética, Esportiva e prescrição de Fitoterápico pela IPOG, Pós Graduada em Fitoterapia e nutrição Clinica na UNIVERSIDADE NILTON LINS e em Nutrição Aplicada a Estética e Emagrecimento.</p>
+            <p>A saúde é fundamental e está diretamente relacionada aos nossos hábitos alimentares.</p>
+            <p>Priorizo sempre a ingestão da “comida de verdade” no qual fazem parte os alimentos naturais, por isso busco incentivar e orientar as pessoas a fazerem as melhores escolhas alimentares com equilíbrio e sabedoria, pois acredito que além dos alimentos proporcionarem momentos prazerosos são também capazes de tratar sintomas e curar doenças.</p>
+            <a class="btn btn-outline-success" type="submit" onclick="aparecerEspec()" >Minhas Especialidades</a>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <img class="curriculo-right" src="./img/valeria.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div id="especialidade" class="container fadein move_right_container" style="display:'none'">
+        <h1 class="move_right">Minhas Especialidades</h1>
+          <div class="row">
+              <div id="spec_1" class="col-lg-3 box-02 move_right">
+                  <div class="card" >
+                      <img src="./img/obesidade.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Emagrecimento e Obesidade</h5>
+                        <p class="card-text">A obesidade já é considerada um dos principais problemas de saúde pública no Brasil e no mundo, 
+                          atingindo não apenas países em desenvolvimento, mas também os<a href="./info.html?info=emagrecimento">...continuar</a></p>
+                        <a href="#agenda" class="btn btn-primary">Agendar Consulta</a>
+                      </div>
+                    </div>
+              </div>
+              <div id="spec_2"  class="col-lg-3 move_right">
+                  <div class="card" >
+                      <img src="./img/funcional.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Nutrição Funcional</h5>
+                        <p class="card-text">A Nutrição Funcional envolve o estudo da individualidade bioquímica de cada paciente, 
+                          levando em conta suas particularidades para indicar alimentos adequados,a fim de alcançar<a href="./info.html?info=funcional">...continuar</a></p>
+                          <a href="#agenda" class="btn btn-primary">Agendar Consulta</a>
+                      </div>
+                    </div>
+              </div>
+              <div id="spec_3" class="col-lg-3  move_right">
+                  <div class="card">
+                      <img src="./img/estetica.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Nutrição e Estética</h5>
+                        <p class="card-text">A nutrição estética relaciona a melhora dos resultados de tratamentos 
+                          estéticos com a conduta nutricional aplicada, tendo em mente o conceito 
+                          de que a beleza começa de dentro<a href="./info.html?info=estetica">...continuar</a></p>
+                          <a href="#agenda" class="btn btn-primary">Agendar Consulta</a>
+                      </div>
+                    </div>
+              </div>
+              <div id="spec_4" class="col-lg-3 move_right">
+                  <div class="card" >
+                      <img src="./img/fitoterapia.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Fitoterapia</h5>
+                        <p class="card-text">A Fitoterapia é o tratamento baseado no uso de plantas medicinais. 
+                            Em diversas situações, as plantas medicinais podem ser utilizadas para prevenção, 
+                            promoção ou recuperação<a href="./info.html?info=fitoterapia">...continuar</a></p>
+                          <a href="#agenda" class="btn btn-primary">Agendar Consulta</a>
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+    <div class="box-03" id="agenda">
+            <div class="form" >
+                <h1>Preencha o Formulário</h1>
+                <h5>Entre am contato para Agendamento, perguntas e tire suas dúvidas.</h5>
+                    <table class="form_whats">
+                        <tr>
+                            <td>
+                                <input id="nome" type="text" placeholder="Nome">
+                            </td>
+                            <td>
+                                <input id="email_a" type="text" placeholder="e-mail">
+                                <p id="valid_a" style="display:none"></p>
+                              </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="telefone_a" type="text" placeholder="Tel: (00) 00000-0000" onchange="mascaraTel(this)" onkeypress=" return filtroNum(event)" maxlength="15">
+                                <p id="valid_t" style="display:none"></p>
+                              </td>
+                            <td>
+                                <select name="servico" id="servico">
+                                  <option value="Atendimento Nutricional">Atendimento Nutricional</option>
+                                  <option value="Personal Diet">Personal Diet</option>
+                                  <option value="Consultoria">Consultoria</option>
+                                  <option value="Tabela Nutricional">Tabela Nutricional</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea name="msg_w" id="msg_w" cols="30" rows="5" placeholder="Escreva aqui sua mensagem" aria-valuetext="Gostaria de agendar uma consulta"></textarea>
+                            </td>
+                        </tr></br>
+                        <tr>
+                            <td colspan="2">
+                                <button onclick="whats()">Enviar</button>
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+    </div>    
+</body>
+<footer class="footer" >
+  <div class="container ">
+      <div class="row">
+          <div class="col-lg-4 list-group">
+              <ul class="list-group list-group-flush ">
+                  <li class="list-group-item list-group-item-action"><a href="./info.html?serv=atend_nutri">Serviços</a></li>
+                  <li class="list-group-item list-group-item-action"><a href="#sobre">Sobre</a></li>
+                  <li class="list-group-item list-group-item-action">Receitas</li>
+                </ul>
+          </div>
+          <div class="col-lg-4">
+              <nav class="navbar navbar-expand-lg navbar-light ">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <div class=" navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://www.instagram.com/nutrivaleriafurchi/" target="_blank"><img src="./img/1b.png" alt="" width="25px"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="https://www.linkedin.com/in/val%C3%A9ria-furchi-611542208/" target="_blank" class="nav-link"><img src="./img/2b.png" alt="" width="25px"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="https://web.facebook.com/profile.php?id=100011092266504" target="_blank" class="nav-link"><img src="./img/3b.png" alt="" width="25px"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#contato" class="nav-link"><img src="./img/4b.png" alt="" width="25px"></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                  </div>
+      </div>
+  </div>
+</footer>
+<script src="./script.js"></script>
+<script src="./info.js"></script>
+</html>
